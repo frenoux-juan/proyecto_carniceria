@@ -272,9 +272,10 @@ button:hover {
     .videos-ofertas{
         display: flex;
         align-items: center;
-        margin: 0;
-        padding: 0;
-        height: 50%;
+        margin:auto;
+        padding: 0px;
+        height: 1000px;
+        width: 100%;
         flex-direction: column;
         
         
