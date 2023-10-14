@@ -73,6 +73,8 @@
 
 /* Estilos para el contenedor de la imagen */
 .portada {
+    display: flex;
+    padding: 0%;
     background-color: #6e0101; /* Color de fondo del footer */
     color: #fff; /* Color del texto en el footer */
     padding: 20px; /* Espacio interior en el footer */
@@ -80,8 +82,9 @@
         
 }
 .portada img{
-    height: 400px;
-    width: 1250px;
+    display: flex;
+    height: 40%;
+    width: 100%;
     padding: 0%;    
 }
 
@@ -106,7 +109,8 @@
     align-items: center;
     margin: 0;
     padding: 0;
-    height: 500px;
+    height: 50%;
+    
 }
 
 .contenido {
@@ -241,4 +245,20 @@ button:hover {
     align-items: center; /* Centra verticalmente */
     min-height: 100vh; /* Asegura que todo el viewport esté cubierto */
     background-color: #f0f0f0; /* Color de fondo opcional para la pantalla */
+}
+
+/* Estilos específicos para pantallas más pequeñas, como celulares */
+@media screen and (max-width: 768px) {
+    .nav-list {
+        grid-template-columns: 1fr; /* Una sola columna que se ajusta automáticamente al ancho de la pantalla */
+        gap: 10px; /* Espacio más pequeño entre elementos para pantallas pequeñas */
+    }
+    #cuadro-contenido{
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        height: 50%;
+        flex-direction: column;
+    }
 }
