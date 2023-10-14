@@ -1,0 +1,244 @@
+
+/* Estilos base para la cabecera y el nav */
+.header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    transition: color 0.3s; /* Transición de color para los enlaces */
+}
+
+/* Agrega un efecto de cambio de color en hover */
+.nav a:hover {
+    color: #FF5733; /* Cambia el color al pasar el ratón por encima */
+}
+
+/* Agrega un efecto de animación al hacer clic */
+.nav a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #FF5733; /* Color de fondo de la barra de navegación */
+    transform: scaleX(0); /* Inicialmente, la barra está oculta */
+    transform-origin: right;
+    transition: transform 0.3s; /* Animación de transformación */
+}
+
+.nav a:hover::before {
+    transform: scaleX(1); /* Muestra la barra al pasar el ratón por encima */
+    transform-origin: left;
+}
+
+/* Estilos para el footer */
+.footer {
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff; /* Color del texto en el footer */
+    padding: 20px; /* Espacio interior en el footer */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilos para los enlaces del footer */
+.footer a {
+    color: #FF5733; /* Color de los enlaces en el footer */
+    text-decoration: none; /* Elimina la subrayado de los enlaces */
+    margin: 0 10px; /* Espacio horizontal entre los enlaces */
+}
+
+/* Estilos adicionales según sea necesario */
+
+
+/* Estilos para el contenedor de la imagen */
+.portada {
+    background-color: #6e0101; /* Color de fondo del footer */
+    color: #fff; /* Color del texto en el footer */
+    padding: 20px; /* Espacio interior en el footer */
+    text-align: center; /* Alineación del texto al centro */
+        
+}
+.portada img{
+    height: 400px;
+    width: 1250px;
+    padding: 0%;    
+}
+
+
+.tarjeta {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20px;
+    overflow: hidden;
+    float: left; /* Alinear las tarjetas en línea horizontal (ajusta según tus necesidades) */
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 100%;
+}
+
+#cuadro-contenido{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 500px;
+}
+
+.contenido {
+    padding: 16px;
+    
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin-top: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.imagen-destacada img {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    
+    
+    
+    
+}
+
+.imagen-texto-container {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.imagen-destacada {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.imagen-destacada img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.texto-destacado {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.texto-destacado h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.texto-destacado p {
+    font-size: 1rem;
+}
+
+.videos-ofertas{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    gap: 30px;
+
+}
+
+.ubicacion{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    min-height: 100vh; /* Asegura que todo el viewport esté cubierto */
+    background-color: #f0f0f0; /* Color de fondo opcional para la pantalla */
+}
