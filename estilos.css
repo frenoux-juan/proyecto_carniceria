@@ -135,9 +135,10 @@ a {
 
 
 
-h1{
+h1 {
     text-align: center;
 }
+
 
 form {
     max-width: 400px;
@@ -255,6 +256,14 @@ button:hover {
     align-items: center; /* Centra verticalmente */
     min-height: 100vh; /* Asegura que todo el viewport esté cubierto */
     background-color: #f0f0f0; /* Color de fondo opcional para la pantalla */
+}
+.formulario {
+    border-style: double;
+    border-color: #000000;
+}
+.ubicacion {
+    border-style: double;
+    border-color: #000000;
 }
 
 /* Estilos específicos para pantallas más pequeñas, como celulares */
