@@ -270,5 +270,14 @@ button:hover {
         flex-direction: column;
 
     }
+    .imagen-texto-container{
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        height: 50%;
+        flex-direction: column;
+    }
+    }
 
 }
