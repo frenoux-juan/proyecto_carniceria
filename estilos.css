@@ -265,6 +265,10 @@ button:hover {
     border-style: double;
     border-color: #000000;
 }
+.productos {
+    border-style: double;
+    border-color: #000000;
+}
 
 /* Estilos específicos para pantallas más pequeñas, como celulares */
 @media screen and (max-width: 768px) {
@@ -279,6 +283,8 @@ button:hover {
         padding: 0;
         height: 50%;
         flex-direction: column;
+        border-style: double;
+        border-color: #000000;
     }
     .imagen-destacada{
         display: flex;
