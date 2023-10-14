@@ -195,6 +195,13 @@ button:hover {
     
     
 }
+.contenedor-productos{
+
+    border-style: double;
+    border-color: #000000;
+    margin: 0px;
+    padding: 0px;
+}
 
 .imagen-texto-container {
     display: flex;
@@ -219,7 +226,8 @@ button:hover {
 .texto-destacado {
     flex: 1;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
+    
 }
 
 .texto-destacado h2 {
@@ -290,7 +298,9 @@ button:hover {
         padding: 0;
         height: 50%;
         flex-direction: column;
+        
     }
+  
     
 
 }
