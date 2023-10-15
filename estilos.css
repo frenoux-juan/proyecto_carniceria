@@ -323,3 +323,91 @@ button:hover {
 
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+     
+
+    .header{
+        background-color: #0d335c;
+    }
+    .footer{
+        background-color: #0d335c;
+    }
+    .nav-list {
+        grid-template-columns: fr; /* Una sola columna que se ajusta automáticamente al ancho de la pantalla */
+        gap: 10px; /* Espacio más pequeño entre elementos para pantallas pequeñas */
+    }
+    #cuadro-contenido{
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        height: 50%;
+        flex-direction: column;
+        border-style: double;
+        border-color: #000000;
+        background-color: #0056b3;
+    }
+    .imagen-destacada{
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        height: 50%;
+        flex-direction: column;
+        background-color: #0d335c;
+    }
+    .videos-ofertas{
+        display: flex;
+        align-items: center;
+        margin:auto;
+        padding: 0px;
+        height: 1000px;
+        width: 100%;
+        flex-direction: column;
+        
+        
+
+    }
+    .imagen-texto-container{
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        height: 50%;
+        flex-direction: column;
+        
+        
+    }
+  
+    
+
+}
+
+table {
+
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #ffffff;
+    padding: 8px;
+}
+
+th {
+    background-color: #ffffff7c;
+}
+
+#productos-lista{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    flex-direction: column;
+    background-color: #ffffff;
+    font-size: 180%;
+
+
+}
