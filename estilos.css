@@ -1,4 +1,6 @@
-
+*{
+    font-family: 'Amarante', serif;
+}
 /* Estilos base para la cabecera y el nav */
 .header {
     display: grid;
@@ -137,6 +139,7 @@ a {
 
 h1 {
     text-align: center;
+    font-size: 250%
 }
 
 
