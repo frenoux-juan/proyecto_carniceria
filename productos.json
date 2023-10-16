@@ -2,6 +2,7 @@
     { "nombre": "Carne picada", "precio": 1200 },
     { "nombre": "Asado", "precio": 2500 },
     { "nombre": "Vacio", "precio": 3500 },
-    { "nombre": "Mila. Nalga", "precio": 4000 }
+    { "nombre": "Mila. Nalga", "precio": 4000 },
+    { "nombre": "Peceto", "precio": 7000 }
 ]
   
