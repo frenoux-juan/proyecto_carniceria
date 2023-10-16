@@ -1,3 +1,5 @@
+//templates para insertar desde un html a html principal
+
 document.addEventListener('DOMContentLoaded', function () {
     // Encabezado
     const headerContainer = document.getElementById('header-container');

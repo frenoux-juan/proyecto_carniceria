@@ -98,7 +98,7 @@
     width: 300px;
     margin: 20px;
     overflow: hidden;
-    float: left; /* Alinear las tarjetas en línea horizontal (ajusta según tus necesidades) */
+    float: left; /* Alinear las tarjetas en línea horizontal*/
 }
 
 .tarjeta img {

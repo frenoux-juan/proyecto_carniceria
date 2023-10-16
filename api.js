@@ -1,3 +1,5 @@
+/*este codigo permite consumir datos en json guardados en productos.json en insertarlos en el 
+index.html*/
 fetch('productos.json')
 .then(response => response.json())
 .then(data => {

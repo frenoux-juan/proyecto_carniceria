@@ -1,4 +1,4 @@
-
+//codigo para validad el formulario desde javascript
 var form = document.querySelector("form");
 
 form.addEventListener("submit", function (event) {
