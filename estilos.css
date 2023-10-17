@@ -53,13 +53,15 @@
 
 
 .tarjeta {
+    
     border: 1px solid #ddd;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 300px;
-    margin: 20px;
+    margin: 10px;
     overflow: hidden;
-    float: left; /* Alinear las tarjetas en línea horizontal*/
+    float: center; /* Alinear las tarjetas en línea horizontal*/
+    padding: 10px;
 }
 
 .tarjeta img {
@@ -71,9 +73,9 @@
 #cuadro-contenido{
     display: flex;
     align-items: center;
-    margin: 0;
+    margin: 10px;
     padding: 0;
-    height: 50%;
+    height: 100%;
     background-color: #882610cb;
     
 }
@@ -236,32 +238,39 @@ button:hover {
 
 /* Estilos específicos para pantallas más pequeñas, como celulares */
 @media screen and (max-width: 768px) {
-    .nav-list {
-        grid-template-columns: 1fr; /* Una sola columna que se ajusta automáticamente al ancho de la pantalla */
-        gap: 10px; /* Espacio más pequeño entre elementos para pantallas pequeñas */
-    }
     #cuadro-contenido{
         display: flex;
+        justify-content: space-between;
         align-items: center;
         margin: 0;
         padding: 0;
-        height: 50%;
+        height: 100%;
         flex-direction: column;
         border-style: double;
         border-color: #000000;
     }
-    .imagen-destacada{
+    #tarjeta-a #tartjeta-b #tarjeta-c #tarjeta-d {
         display: flex;
         align-items: center;
         margin: 0;
         padding: 0;
-        height: 50%;
+        height: 100%;
+        background-color: #882610cb;
+    }
+    .imagen-destacada{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        margin: auto;
+        padding: auto;
+        height: 100%;
         flex-direction: column;
     }
     .videos-ofertas{
         display: flex;
+        justify-content: center;
         align-items: center;
-        margin:auto;
+        margin:0;
         padding: 0px;
         height: 1000px;
         width: 100%;
@@ -272,10 +281,11 @@ button:hover {
     }
     .imagen-texto-container{
         display: flex;
+        justify-content: center;
         align-items: center;
         margin: 0;
         padding: 0;
-        height: 50%;
+        height: 100%;
         flex-direction: column;
         
     }
@@ -288,37 +298,77 @@ button:hover {
      
 
     .header{
-        background-color: #0d335c;
+        background-color: #882610cb;
+       
     }
     .footer{
         background-color: #0d335c;
     }
-    .nav-list {
-        grid-template-columns: fr; /* Una sola columna que se ajusta automáticamente al ancho de la pantalla */
-        gap: 10px; /* Espacio más pequeño entre elementos para pantallas pequeñas */
+
+    #tarjetas-a{
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: #882610cb;
+
+
     }
+
+    #tarjetas-b{
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: #882610cb;
+
+    }
+    #tarjetas-c{
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: #882610cb;
+
+    }
+    #tarjetas-d{
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        background-color: #882610cb;
+
+    }
+
     #cuadro-contenido{
         display: flex;
         align-items: center;
         margin: 0;
         padding: 0;
-        height: 50%;
+        height: 100%;
         flex-direction: column;
         border-style: double;
         border-color: #000000;
-        background-color: #0056b3;
+        background-color: #882610cb;
+        
     }
     .imagen-destacada{
         display: flex;
+        justify-content: center;
         align-items: center;
         margin: 0;
         padding: 0;
-        height: 50%;
+        height: 100%;
         flex-direction: column;
         background-color: #0d335c;
     }
     .videos-ofertas{
         display: flex;
+        justify-content: center;
         align-items: center;
         margin:auto;
         padding: 0px;
