@@ -3,19 +3,6 @@
 }
 
 
-
-.navbar-nav .nav-link:hover {
-    color: rgb(197, 0, 0);
-    text-decoration: underline;
-
-    
-  }
-  .container-fluid{
-    background-color: #000000;
-
-  }
-
-
 /*Estilos para el footer*/
 .footer {
     background-color: #333; /* Color de fondo del footer */
@@ -57,7 +44,7 @@
     border: 1px solid #ddd;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 280px;
     margin: 10px;
     overflow: hidden;
     float: center; /* Alinear las tarjetas en línea horizontal*/
@@ -421,4 +408,48 @@ th {
     font-size: 180%;
 
 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #882610cb;
+    font-weight: bold;
+}
+
+/* Estilo activo */
+nav a:active {
+    color: blue;
+}
+
+/* Estilo para hover */
+nav a:hover {
+    color: lightblue;
+}
+
+/* Media query menu */
+@media (max-width: 768px) {
+    nav {
+        text-align: center;
+    }
+
+    nav ul {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
 }
