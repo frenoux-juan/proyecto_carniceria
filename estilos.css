@@ -286,7 +286,7 @@ button:hover {
      
 
     .header{
-        background-color: #882610cb;
+        background-color: #ffffff00;
        
     }
     .footer{
@@ -453,4 +453,5 @@ nav a:hover {
         display: block;
         margin: 10px 0;
     }
+
 }
