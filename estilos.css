@@ -52,10 +52,11 @@
 }
 
 .tarjeta img {
-    width: 100%;
-    height: 100%;
+    width: 280px;
+    height: 280px;
     
 }
+
 
 #cuadro-contenido{
     display: flex;
@@ -236,7 +237,7 @@ button:hover {
         border-style: double;
         border-color: #000000;
     }
-    #tarjeta-a #tartjeta-b #tarjeta-c #tarjeta-d {
+    #tarjetas-a #tarjetas-b #tarjetas-c #tarjetas-d {
         display: flex;
         align-items: center;
         margin: 0;
