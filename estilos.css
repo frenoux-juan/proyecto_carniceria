@@ -439,7 +439,7 @@ nav a:hover {
 }
 
 /* Media query menu */
-@media (max-width: 768px) {
+@media (max-width: 768px) and (max-width: 1023px) {
     nav {
         text-align: center;
     }
