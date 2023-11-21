@@ -4,115 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carniceria</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos/estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amarante&display=swap" rel="stylesheet">
- 
-    
 </head>
 <body>
+    
     <!-- template header.html codigo de insersion en script-temples.js-->
     <div id="header-container"></div>
-
-    <div class="contenido"></div>
-    <h1>Nuestros mejores productos</h1>
-    <br>
-
-    <div id="cuadro-contenido">
-
-    <div id="tarjetas-a">
-    <div class="tarjeta">
-        <img src="imagenes/imagen1.jpg" alt="Imagen de la tarjeta 1">
-        <div class="contenido">
-            <h2>Cortes premium</h2>
-            <p>Carne de primera calidad</p>
-            <a href="#"></a>
-        </div>
-    </div>
-    <div class="tarjeta">
-        <img src="imagenes/imagen2.jpg" alt="Imagen de la tarjeta 2">
-        <div class="contenido">
-            <h2>Cortes para parrilla</h2>
-            <p>Carne de exportación</p>
-            <a href="#"></a>
-        </div>
-    </div>
-    </div>
-    <br>
-    <div id="tarjetas-b">
-    <div class="tarjeta">
-        <img src="imagenes/imagen3.jpg" alt="Imagen de la tarjeta 3">
-        <div class="contenido">
-            <h2>Milanesas</h2>
-            <p>De nalga, peceto y cuadrada.</p>
-            <a href="#"></a>
-        </div>
-    </div>
-    <div class="tarjeta">
-        <img src="imagenes/imagen4.jpg" alt="Imagen de la tarjeta 3">
-        <div class="contenido">
-            <h2>Embutidos y achuras</h2>
-            <p>Para acompañar la parrillada</p>
-            <a href="#"></a>
-        </div>
-    </div>
-    </div>
-    <br>
-    <div id="tarjetas-c">
-    <div class="tarjeta">
-            <img src="imagenes/imagen5.jpg" alt="Imagen de la tarjeta 1">
-            <div class="contenido">
-                <h2>Cortes premium</h2>
-                <p>Siempre carnes de primera.</p>
-                <a href="#"></a>
-            </div>
-    </div>
-    <div class="tarjeta">
-            <img src="imagenes/imagen6.jpg" alt="Imagen de la tarjeta 2">
-            <div class="contenido">
-                <h2>Cortes para parrilla</h2>
-                <p>Tipica carne Argentina</p>
-                <a href="#"></a>
-            </div>
-    </div>
-    </div>
     
-    <br>
-
-    <div id="tarjetas-d">
-    <div class="tarjeta">
-            <img src="imagenes/imagen8.jpg" alt="Imagen de la tarjeta 3">
-            <div class="contenido">
-                <h2>Milanesas</h2>
-                <p>Multiples opciones en milanesas.</p>
-                <a href="#"></a>
-            </div>
-    </div>
-    <div class="tarjeta">
-            <img src="imagenes/imagen4.jpg" alt="Imagen de la tarjeta 3">
-            <div class="contenido">
-                <h2>Embutidos y achuras</h2>
-                <p>Producidos en nuestros locales.</p>
-                <a href="#"></a>
-            </div>
-    </div>
-    </div>
-    </div>
-    <br>
+        <h1>Nuestros mejores productos</h1>
     
 
-        <h1 style="text-decoration: underline;">Solo por hoy, aprovechalo!!</h1>
-        <br><br>
-        <div id="productos-lista" style="color: black";></div>
-    
-        <br><br><br><br>
-    <!-- template header.html codigo de insersion en script-temples.js-->
+    <section id="cuadro-contenido">
+        <!-- Contenido de las tarjetas de productos -->
+        <div class="grupo-tarjetas" id="tarjetas-a">
+            <article class="tarjeta">
+                <img src="imagenes/imagen1.jpg" alt="Cortes premium">
+                <div class="contenido">
+                    <h2>Cortes premium</h2>
+                    <p>Carne de primera calidad</p>
+                    <a href="#"></a>
+                </div>
+            </article>
+            <article class="tarjeta">
+                <img src="imagenes/imagen2.jpg" alt="Cortes para parrilla">
+                <div class="contenido">
+                    <h2>Cortes para parrilla</h2>
+                    <p>Carne de exportación</p>
+                    <a href="#"></a>
+                </div>
+            </article>
+        </div>
+
+        <div class="grupo-tarjetas" id="tarjetas-b">
+            <article class="tarjeta">
+                <img src="imagenes/imagen3.jpg" alt="Milanesas">
+                <div class="contenido">
+                    <h2>Milanesas</h2>
+                    <p>De nalga, peceto y cuadrada.</p>
+                    <a href="#"></a>
+                </div>
+            </article>
+            <article class="tarjeta">
+                <img src="imagenes/imagen4.jpg" alt="Embutidos y achuras">
+                <div class="contenido">
+                    <h2>Embutidos y achuras</h2>
+                    <p>Para acompañar la parrillada</p>
+                    <a href="#"></a>
+                </div>
+            </article>
+        </div>
+
+        <div class="grupo-tarjetas" id="tarjetas-c">
+            <article class="tarjeta">
+                <img src="imagenes/imagen5.jpg" alt="Cortes premium">
+                <div class="contenido">
+                    <h2>Cortes premium</h2>
+                    <p>Siempre carnes de primera.</p>
+                    <a href="#"></a>
+                </div>
+            </article>
+            <article class="tarjeta">
+                <img src="imagenes/imagen6.jpg" alt="Cortes para parrilla">
+                <div class="contenido">
+                    <h2>Cortes para parrilla</h2>
+                    <p>Típica carne Argentina</p>
+                    <a href="#"></a>
+                </div>
+            </article>
+        </div>
+
+        <div class="grupo-tarjetas" id="tarjetas-d">
+            <article class="tarjeta">
+                <img src="imagenes/imagen8.jpg" alt="Milanesas">
+                <div class="contenido">
+                    <h2>Milanesas</h2>
+                    <p>Múltiples opciones en milanesas.</p>
+                    <a href="#"></a>
+                </div>
+            </article>
+            <article class="tarjeta">
+                <img src="imagenes/imagen4.jpg" alt="Embutidos y achuras">
+                <div class="contenido">
+                    <h2>Embutidos y achuras</h2>
+                    <p>Producidos en nuestros locales.</p>
+                    <a href="#"></a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section id="oferta-especial">
+        <h1>Solo por hoy, ¡aprovéchalo!</h1>
+        <div id="productos-lista" style="color: black;"></div>
+    </section>
+
+
+    <!-- template footer.html codigo de insersion en script-temples.js-->
     <div id="footer-container"></div>
-
-    <script src="script-templates.js"></script>
-    <script src="api.js"></script>
     
+
+    <script src="javascript/script-templates.js"></script>
+    <script src="javascript/api.js"></script>
 </body>
 </html>
